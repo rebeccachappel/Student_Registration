@@ -1,5 +1,5 @@
 <H2>Student_Registration</H2>
-====================
+
 <b>Java Development Team: Team B</b><br>
 Team Members: Rebecca Chappel, Michelle Masilon, Amit Dhamija, William Crews
 

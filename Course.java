@@ -101,4 +101,34 @@ public class Course {
 		 return studentsEnrolled;
 	 }
 
+	/**
+	 * isCourseFilled() Method will determine if a course is filled
+	 *
+	 * @author Michelle Masilon
+	 * @param <getCourseLimit> get the course limit for the course
+	 * @param <getStudentsEnrolled> get the current number of students enrolled in course
+	 * @throws
+	 * @return a boolean: True if course is filled / False if course still has availability
+	 */
+
+	 protected boolean isCourseFilled(int getCourseLimit, int getStudentsEnrolled) {
+		 boolean result;
+		 if (getStudentsEnrolled == getCourseLimit)
+		 	result = true;
+		 else
+		 	result = false;
+		 return result;
+	 }
+
+	/**
+	 * compareTo() Method to compare two courses to each other by course ID
+	 *
+	 * @author Michelle Masilon
+	 * @param <Course> get the course course ID for the Course object
+	 * @throws
+	 * @return Course ID
+	 */
+	 public int compareTo(Course course) {
+	 		return this.courseID.compareTo(course.getCourseID());
+	}
  }

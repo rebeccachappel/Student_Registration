@@ -21,11 +21,11 @@ public class Course {
 	 /**
 	  * Course Constructor
 	  *
-	  * @param courseID					Course ID
+	  * @param courseID				Course ID
 	  * @param startDate				Start date of course
-	  * @param endDate					End date of course
+	  * @param endDate				End date of course
 	  * @param courseName				Name of course
-	  * @param courseDescription		Brief description of course
+	  * @param courseDescription			Brief description of course
 	  * @param courseLimit				Maximum number of students allowed to be registered for course
 	  * @param studentsEnrolled			Current number of students enrolled in course
 	  */
